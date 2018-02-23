@@ -20,9 +20,9 @@ define('SESBASE', 'email');
  * @Memulai coneksi Database
  * Ubalah isi konstanta di bawah ini sesuai kebutuhan
  */
-define('SERVER','localhost');
-define('USER','root');
-define('PASS','');
-define('DBNAME','MVC-Pentatonik');
+define('SERVER', $_ENV['DB_SERVER']);
+define('USER', $_ENV['DB_USER']);
+define('PASS', $_ENV['DB_PASS']);
+define('DBNAME', $_ENV['DB_NAME']);
 
 ?>
