@@ -1,6 +1,1 @@
 /pentatonik/mails
-/vendor
-
-.env
-composer.json
-composer.lock

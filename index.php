@@ -1,13 +1,6 @@
 <?php
 
   /**
-   * @load env
-   */
-  include 'vendor/autoload.php';
-  $dotenv = new Dotenv\Dotenv(__DIR__);
-  $dotenv->load();
-
-  /**
    * @config file
    */
   include 'config/config.php';
