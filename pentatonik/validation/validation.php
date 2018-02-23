@@ -210,7 +210,8 @@
       return $this->_errors;
     }
 
-    public function passed(){
+    public function passed()
+    {
       return $this->_passed;
     }
 

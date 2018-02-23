@@ -14,7 +14,7 @@
       }
     }
 
-    public function v_building($length)
+    public function random($length)
     {
       $data = 'abcdefghijklmnopqrstuvwxyz0987654321ABCDEFGHIJKLMNOPQRSTU1234567890';
       $string = '';

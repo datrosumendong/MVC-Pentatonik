@@ -1,3 +1,3 @@
-<script type="text/javascript" src="<?=URL.'app/views/templates/core/js/custom.js?v='.token::v_building(7);?>"></script>
+<script type="text/javascript" src="<?=URL.'public/JSBoots/js/custom.js?v='.token::random(7);?>"></script>
 </body>
 </html>
