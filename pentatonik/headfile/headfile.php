@@ -1,4 +1,4 @@
-<title><?=(isset($this->title)) ? $this->title : 'Loopers' ;?></title>
+<title><?=(isset($this->title)) ? $this->title : TITLE ;?></title>
 <link rel="stylesheet" href="<?php echo URL;?>public/JSBoots/css/style.css<?='?v='.token::v_building(7);?>">
 <link rel="shortcut icon" type="image/x-icon" href="<?=URL;?>public/images/icon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
