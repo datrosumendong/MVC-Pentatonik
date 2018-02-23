@@ -1,5 +1,5 @@
 <title><?=(isset($this->title)) ? $this->title : 'Loopers' ;?></title>
-<link rel="stylesheet" href="<?php echo URL;?>public/JSBoots/css/assets/css/style.css<?='?v='.token::v_building(7);?>">
+<link rel="stylesheet" href="<?php echo URL;?>public/JSBoots/css/style.css<?='?v='.token::v_building(7);?>">
 <link rel="shortcut icon" type="image/x-icon" href="<?=URL;?>public/images/icon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="text/javascript" src="<?=URL;?>public/JSBoots/js/jquery-3.2.1.js"></script>
