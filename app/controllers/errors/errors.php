@@ -5,12 +5,12 @@
 
     public function __construct()
     {
-      // source code...
+      $this->loadView('errors');
     }
 
     public function errors()
     {
-      // source code...
+      $this->view->errors();
     }
 
   }
