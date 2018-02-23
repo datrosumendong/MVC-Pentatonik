@@ -1,29 +1,9 @@
 <?php
 
   /**
-   * @URL BASE disesuaikan
+   * @config file
    */
-  define('URL','http://localhost/MVC-Pentatonik/');
-
-  /**
-   * @DATAWEBSITE WEBSITE
-   */
-  define('TITLE', 'MVC-Pentatonik');
-
-  /**
-   * @Session BASE
-   * Session yang diambil sebagai filter data
-   */
-  define('SESBASE', 'email');
-
-  /**
-   * @Memulai coneksi Database
-   * Ubalah isi konstanta di bawah ini sesuai kebutuhan
-   */
-  define('SERVER','localhost');
-  define('USER','root');
-  define('PASS','');
-  define('DBNAME','MVC-Pentatonik');
+  include 'config/config.php';
 
   /**
    * @All Function
@@ -33,7 +13,7 @@
   /**
    * @Spl_autoload_register
    */
-  include 'conf_load.php';
+  include 'config/auto_load.php';
 
   /**
    * @START SESSION
