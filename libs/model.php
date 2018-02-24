@@ -9,6 +9,14 @@
     public function __construct()
     {
       $this->_db=database::getInstance();
+
+      if(session::exists('email'))
+      {
+        global $user;
+        
+        $this->get_first('user', 'email', session::get('email'));
+        $user=$this->_user;
+      }
     }
 
     /**

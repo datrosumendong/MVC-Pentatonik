@@ -160,7 +160,7 @@
     /**
      * @Menampilkan Erorrs
      */
-    private function _errors()
+    public function _errors()
     {
       require_once 'app/controllers/errors/errors.php';
       $this->_controller=new errors();
