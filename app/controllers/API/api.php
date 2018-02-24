@@ -4,13 +4,14 @@
   {
     public function __construct()
     {
-      echo 'api.php <br/>';
-      // $this->loadModel('api');
+      $this->loadModel('api');
+      $this->loadView('api');
     }
 
     public function api()
     {
-      // $this->model->api();
+      $this->model->api();
+      $this->view->api();
     }
   }
 

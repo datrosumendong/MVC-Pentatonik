@@ -1,16 +1,18 @@
 <?php
 
-  class data_users extends api
+  class data_users extends api_model
   {
     public function __construct()
     {
-      echo 'data_user file users.php<br/>';
       parent::__construct();
     }
 
     public function users()
     {
+      $this->get_all_api_datas('user');
+      $data=$this->_data;
 
+      print Json_encode($data);
     }
   }
 
