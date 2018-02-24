@@ -7,12 +7,24 @@
       parent::__construct();
     }
 
-    public function users()
+    public function users($token='')
     {
-      $this->get_all_api_datas('user');
-      $data=$this->_data;
+      if(session::exists(SESBASE))
+      {
+        global $user;
 
-      print Json_encode($data);
+        if($token==$user->aktivasi)
+        {
+          $this->get_all_api_datas('user');
+          $userdatas=$this->_data;
+
+          print Json_encode($userdatas);
+        }else{
+          redirect::to(URL.'errors?token='.md5('errors'));
+        }
+      }else{
+        echo 'Set Your Session Email <br/>';
+      }
     }
   }
 

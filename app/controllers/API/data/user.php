@@ -7,12 +7,24 @@
       parent::__construct();
     }
 
-    public function user()
+    public function user($token='')
     {
-      $this->get_first('user', 'email', 'dsumendong@gmail.com');
-      $user=$this->_user;
+      if(session::exists(SESBASE))
+      {
+        global $user;
 
-      print Json_encode($user);
+        if($token==$user->aktivasi)
+        {
+          $this->get_first('user', SESBASE, $user->email);
+          $userdata=$this->_user;
+
+          print Json_encode($userdata);
+        }else{
+          redirect::to(URL.'errors?token='.md5('errors'));
+        }
+      }else{
+        echo 'Set Your Session Email <br/>';
+      }
     }
   }
 

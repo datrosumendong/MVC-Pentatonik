@@ -15,7 +15,7 @@
     {
       global $user;
 
-      $this->get_first('user', 'email', 'dsumendong@gmail.com');
+      $this->get_first('user', 'email', session::get('email'));
       $user=$this->_user;
     }
 
