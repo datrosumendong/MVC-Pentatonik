@@ -23,6 +23,6 @@ define('SESBASE', 'email');
 define('SERVER', 'localhost');
 define('USER', 'root');
 define('PASS', '');
-define('DBNAME', 'MVC-Pentatonik');
+define('DBNAME', 'bmtloop_data');
 
 ?>
