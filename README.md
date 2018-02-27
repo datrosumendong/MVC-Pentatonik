@@ -5,4 +5,4 @@
 ## Memulai MVC-Pentatonik
 langkah awal untuk menggunakan mvc pentatonik ini adalah dengan menjalankan ini pada terminal/cmd.
 
-<git clon https://github.com/datrosumendong/MVC-Pentatonik.git>
+`git clon https://github.com/datrosumendong/MVC-Pentatonik.git`
