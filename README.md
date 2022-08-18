@@ -6,3 +6,6 @@
 langkah awal untuk menggunakan mvc pentatonik ini adalah dengan menjalankan ini pada terminal/cmd.
 
 `git clone https://github.com/datrosumendong/MVC-Pentatonik.git`
+
+## Hallo semua
+bagaimana langkah selanjutnya?
